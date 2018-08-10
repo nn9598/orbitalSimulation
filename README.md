@@ -1,0 +1,3 @@
+# orbitalSimulation
+This project is built using a Node/express back-end leveraging websockets to continuously serve arbitrarily-generated orbital data as latitude longitude pair. Front-end consumes coordinates with Google Maps API. So far, I have created a node/express API that generates some random 3D vector, converts that vector to it's corresponding lat and long coordinates, sends those coordinates to the front-end through a websocket which centers and places a marker on the given coordinates. The final steps are to give some random yet accuracte orbital path that crosses over the equator and to then send the data continously through to the websocket to represent the look of a satellite on the map.
+
